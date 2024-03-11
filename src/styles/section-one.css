@@ -42,3 +42,16 @@
     color: #6a4dff;
   }
 }
+
+/* ----------------RESPONSIVE-------------- */
+
+@media only screen and (max-width: 430px) {
+  .section-one {
+    height: 74vh;
+    padding: 0px 2rem;
+  }
+
+  .section-one h1 {
+    font-size: 46px;
+  }
+}

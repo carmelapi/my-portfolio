@@ -25,6 +25,7 @@ export default function SectionMarquee() {
           <span>ADOBE</span>
           <span className="marquee__span-opacity">TYPOGRAPHY</span>
           <span>WORDPRESS </span>
+          <span className="marquee__span-opacity">NETLIFY</span>
         </Marquee>
       </div>
     </>

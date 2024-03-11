@@ -4,7 +4,7 @@ export default function Career() {
   return (
     <section className="section-career">
       <h4 className="career__title">Career</h4>
-      <div>
+      <p>
         <span>
           <strong>1991</strong> Born in Naples
         </span>
@@ -38,7 +38,7 @@ export default function Career() {
         <span>
           <strong>2023/2024</strong> Product designer in Insurely
         </span>
-      </div>
+      </p>
     </section>
   );
 }

@@ -21,3 +21,15 @@
   font-weight: 500;
   margin-bottom: 24px;
 }
+
+/* ----------------RESPONSIVE-------------- */
+
+@media only screen and (max-width: 430px) {
+  .section-career {
+    padding: 0rem 2rem;
+  }
+
+  .career__title {
+    font-size: 1rem;
+  }
+}

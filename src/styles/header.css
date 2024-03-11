@@ -27,3 +27,11 @@ menu {
   transform: translate(52px, -9px);
   transition: transform 0.3s ease;
 }
+
+/* ----------------RESPONSIVE-------------- */
+
+@media only screen and (max-width: 430px) {
+  header {
+    padding: 1rem 2rem;
+  }
+}
