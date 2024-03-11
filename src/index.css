@@ -4,16 +4,16 @@
   --tertiary-color: #d4ccff;
   --bg-color: #080033;
   --text-color: #f5f5f5;
-
-  background-color: var(--bg-color);
-  font-family: "roc-grotesk", "Franklin Gothic Medium", "Arial Narrow",
-    sans-serif;
-  color: var(--text-color);
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+  font-family: "roc-grotesk", "Franklin Gothic Medium", "Arial Narrow",
+    sans-serif;
+  color: var(--text-color);
 }
 
 h1,

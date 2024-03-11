@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import "../styles/section-one.css";
+import "../../styles/section-one.css";
 
 export default function SectionOne() {
   const textColor = "change-color";

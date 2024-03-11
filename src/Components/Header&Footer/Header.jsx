@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/header.css";
+import "../../styles/header.css";
 
 export default function Header() {
   const [isClose, setIsClose] = useState(true);

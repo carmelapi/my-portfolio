@@ -1,0 +1,23 @@
+.section-career {
+  display: flex;
+  align-items: flex-start;
+  height: 85vh;
+  padding: 0rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-career span {
+  padding: 0px 24px 24px 0px;
+}
+.section-career strong {
+  padding-right: 12px;
+  font-weight: 600;
+  color: var(--tertiary-color);
+}
+
+.career__title {
+  margin: 0px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}

@@ -1,4 +1,5 @@
-import "../styles/marquee.css";
+import "../../styles/marquee.css";
+
 import Marquee from "react-fast-marquee";
 
 export default function SectionMarquee() {
