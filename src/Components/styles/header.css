@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+menu {
+  padding: 0;
+}
+.menu-hamburger {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  cursor: pointer;
+}
+
+.line-menu {
+  background-color: var(--text-color);
+  height: 2px;
+  transform: translate(0px, 0px);
+  transition: transform 0.3s ease;
+}
+
+.line-menu__close {
+  background-color: var(--text-color);
+  height: 2px;
+  transform: translate(52px, -9px);
+  transition: transform 0.3s ease;
+}

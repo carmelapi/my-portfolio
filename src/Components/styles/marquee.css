@@ -1,0 +1,26 @@
+.marquee {
+  margin-bottom: 100px;
+}
+.marquee__title {
+  padding: 0rem 3rem;
+  margin: 0px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.marquee-text {
+  font-size: 100px;
+  font-weight: 700;
+  color: var(--tertiary-color);
+  line-height: 100%;
+  overflow: hidden;
+}
+
+.marquee span {
+  padding: 0;
+  margin: 0px 10px;
+}
+
+.marquee__span-opacity {
+  opacity: 0.65;
+}
