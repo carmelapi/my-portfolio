@@ -1,7 +1,7 @@
 import SectionMarquee from "./Marquee";
 import SectionOne from "./SectionOne";
-import Project from "./Project";
 import Career from "./Career";
+import Project from "../Project/Project";
 
 export default function Body() {
   return (

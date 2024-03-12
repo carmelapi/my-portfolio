@@ -1,10 +1,14 @@
 .section-career {
   display: flex;
   align-items: flex-start;
-  height: 85vh;
+  height: 70vh;
   padding: 0rem 3rem;
   flex-direction: column;
   justify-content: center;
+}
+
+.section-career p {
+  font-size: 20px;
 }
 
 .section-career span {
@@ -28,8 +32,11 @@
   .section-career {
     padding: 0rem 2rem;
   }
-
+  
   .career__title {
     font-size: 1rem;
+  }
+  .section-career p {
+    font-size: 16px;
   }
 }

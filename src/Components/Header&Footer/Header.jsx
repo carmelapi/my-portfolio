@@ -1,29 +1,30 @@
 import { useState } from "react";
 import "../../styles/header.css";
+import ShowMenu from "./menu/Menu";
 
 export default function Header() {
-  const [isClose, setIsClose] = useState(true);
-
-  function toogleMenu() {
-    setIsClose(!isClose);
-    console.log("clicked");
-  }
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header>
-      <menu onClick={toogleMenu}>
-        {isClose ? (
-          <div className="menu-hamburger">
-            <p>Menu</p>
-            <div className="line-menu"></div>
-          </div>
-        ) : (
-          <div className="menu-hamburger">
-            <p>Close</p>
-            <div className="line-menu__close"></div>
-          </div>
-        )}
-      </menu>
-    </header>
+    <>
+      <header>
+        <menu onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? (
+            <div className="menu-hamburger">
+              <p>Close</p>
+              <div className="line-menu__close"></div>
+            </div>
+          ) : (
+            <>
+              <div className="menu-hamburger">
+                <p>Menu</p>
+                <div className="line-menu"></div>
+              </div>
+            </>
+          )}
+        </menu>
+      </header>
+      {isOpen && <ShowMenu></ShowMenu>}
+    </>
   );
 }
