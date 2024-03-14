@@ -1,12 +1,22 @@
 .menu__container {
-  width: 80vw;
-  height: 60vh;
+  width: 88vw;
+  height: 72vh;
   margin-left: auto;
   margin-right: auto;
+  padding: 1rem 0rem;
+  position: absolute;
+  z-index: 2;
+  left: 48px;
 
   display: flex;
   justify-content: center;
-  background: #1c124c6a;
+  background: #080033;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 0, 51, 1) 0%,
+    rgba(26, 14, 89, 1) 100%
+  );
+
   -webkit-border-bottom-right-radius: 16px;
   -webkit-border-bottom-left-radius: 16px;
   -moz-border-radius-bottomright: 16px;
@@ -14,7 +24,6 @@
   border-bottom-right-radius: 16px;
   border-bottom-left-radius: 16px;
   border-top: 2px solid var(--tertiary-color);
-
   animation: translateMenu 0.3s ease-in;
 }
 
@@ -44,3 +53,68 @@
 .menu__list li:hover {
   opacity: 1;
 }
+
+ul.menu__list {
+  padding: 0;
+}
+/* ----------------RESPONSIVE-------------- */
+
+@media only screen and (max-width: 430px) {
+  .menu__list li {
+    font-size: 3rem;
+  }
+}
+
+/* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d; */
+
+@keyframes translateMenu {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.menu__list li {
+  list-style-type: none;
+  font-size: 4rem;
+  font-weight: 400;
+  text-decoration: underline;
+  color: var(--tertiary-color);
+  opacity: 0.75;
+  cursor: pointer;
+}
+.menu__list li:hover {
+  opacity: 1;
+}
+
+ul.menu__list {
+  padding: 0;
+}
+/* ----------------RESPONSIVE-------------- */
+
+@media only screen and (max-width: 430px) {
+  .menu__container {
+    width: 100vw;
+    height: 52vh;
+    left: 0;
+  }
+
+  .menu__list li {
+    font-size: 3rem;
+  }
+}
+
+/* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 1;
+  transform-style: preserve-3d; */
