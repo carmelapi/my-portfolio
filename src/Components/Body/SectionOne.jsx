@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import "../../styles/section-one.css";
 
 export default function SectionOne() {
-  const textColor = "change-color";
+  // const textColor = "change-color";
 
   return (
     <>
@@ -93,16 +93,7 @@ export default function SectionOne() {
           My name is Carmela and <br />
           this is the portfolio of a <br />
           <TypeAnimation
-            sequence={[
-              "Visual designer.",
-              2000,
-
-              (el) => el.classList.add(textColor),
-
-              "Front end developer.",
-              2000,
-              (el) => el.classList.remove(textColor),
-            ]}
+            sequence={["Visual designer.", 2000, "Front end developer.", 2000]}
             className="section-one__typeanimation"
             repeat={Infinity}
           />

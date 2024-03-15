@@ -24,20 +24,19 @@
 .section-one__typeanimation {
   font-weight: 600;
   color: #f03a66;
-}
-
-.change-color {
-  animation: textColor 3500ms 1000ms infinite;
+  animation: textColor 8500ms infinite;
 }
 
 @keyframes textColor {
   0% {
     color: #f03a66;
   }
-  1% {
+  49% {
+    color: #f03a66;
+  }
+  51% {
     color: #6a4dff;
   }
-
   100% {
     color: #6a4dff;
   }
