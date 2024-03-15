@@ -17,7 +17,9 @@ export default function Footer() {
             <LiaGithubSquare size={"3rem"} />
           </a>
         </div>
-        <h4>carmelapippa@gmail.com</h4>
+        <h4>
+          <a href="mailto:carmelapippa@gmail.com">carmelapippa@gmail.com</a>
+        </h4>
       </section>
     </>
   );
