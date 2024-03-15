@@ -12,10 +12,12 @@ export default function ShowMenu() {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/carmela-pippa/">Career</a>
+          <a href="https://www.linkedin.com/in/carmela-pippa/" target="_blank">
+            Career
+          </a>
         </li>
         <li>
-          <a href="mailto:carmelapippa@gmail.com"></a>Contact
+          <a href="mailto:carmelapippa@gmail.com" target="_blank"></a>Contact
         </li>
       </ul>
     </div>
