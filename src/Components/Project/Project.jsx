@@ -1,3 +1,15 @@
 export default function Project() {
-  return <div>ciao</div>;
+  return (
+    <div style={{ textAlign: "center" }}>
+      This site is still under construction, <br /> if you want to see some of
+      my old projects,{" "}
+      <a
+        href="https://www.figma.com/proto/MBwomhhdgiyFQQfhiRBIxgIg/Pippa?page-id=1400%3A1296&node-id=1400-1488&mode=design&t=JNwaWuEPC1F3hN4P-1"
+        target="_blank"
+      >
+        click here!
+      </a>
+      .
+    </div>
+  );
 }

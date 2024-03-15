@@ -2,7 +2,7 @@ import "../../styles/career.css";
 
 export default function Career() {
   return (
-    <section className="section-career">
+    <section className="section-career" id="section-career">
       <h4 className="career__title">Career</h4>
       <p>
         <span>

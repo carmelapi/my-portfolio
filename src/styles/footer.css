@@ -13,3 +13,8 @@
 a {
   color: var(--tertiary-color);
 }
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+}
