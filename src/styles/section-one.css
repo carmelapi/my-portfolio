@@ -24,7 +24,7 @@
 .section-one__typeanimation {
   font-weight: 600;
   color: #f03a66;
-  animation: textColor 8500ms infinite;
+  animation: textColor 8400ms infinite;
 }
 
 @keyframes textColor {
