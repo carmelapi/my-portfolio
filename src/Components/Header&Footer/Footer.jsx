@@ -7,18 +7,35 @@ export default function Footer() {
     <>
       <section className="section-footer">
         <div className="footer__icons">
-          <a href="https://www.linkedin.com/in/carmela-pippa/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/carmela-pippa/"
+            target="_blank"
+            aria-label="Contact me on Linkedin"
+          >
             <LiaLinkedin size={"3rem"} />
           </a>
-          <a href="https://www.codewars.com/users/Carmelapippa" target="_blank">
+          <a
+            href="https://www.codewars.com/users/Carmelapippa"
+            target="_blank"
+            aria-label="Find me on codewars"
+          >
             <SiCodewars size={"2rem"} />
           </a>
-          <a href="https://github.com/carmelapi" target="_blank">
+          <a
+            href="https://github.com/carmelapi"
+            target="_blank"
+            aria-label="Look my code on Github"
+          >
             <LiaGithubSquare size={"3rem"} />
           </a>
         </div>
         <h4>
-          <a href="mailto:carmelapippa@gmail.com">carmelapippa@gmail.com</a>
+          <a
+            href="mailto:carmelapippa@gmail.com"
+            aria-label="Contact me via email"
+          >
+            carmelapippa@gmail.com
+          </a>
         </h4>
       </section>
     </>
