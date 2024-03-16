@@ -1,6 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
 import "../../styles/section-one.css";
 
+const DURATION = 40;
+
 export default function SectionOne() {
   // const textColor = "change-color";
 
@@ -93,7 +95,18 @@ export default function SectionOne() {
           My name is Carmela and <br />
           this is the portfolio of a <br />
           <TypeAnimation
-            sequence={["Visual designer.", 2000, "Front end developer.", 2000]}
+          duration={DURATION}
+          deletionSpeed={DURATION}
+            sequence={[
+              "Visual designer.", 
+              2000,
+              "",
+              (el) =>el.classList.add('color-two'),
+              "Front end developer.", 
+              2000,
+              "",
+              (el) => el.classList.remove('color-two')
+            ]}
             className="section-one__typeanimation"
             repeat={Infinity}
           />

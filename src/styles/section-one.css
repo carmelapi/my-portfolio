@@ -25,19 +25,8 @@
   font-weight: 600;
   color: #f03a66;
   animation: textColor 8400ms infinite;
-}
 
-@keyframes textColor {
-  0% {
-    color: #f03a66;
-  }
-  49% {
-    color: #f03a66;
-  }
-  51% {
-    color: #6a4dff;
-  }
-  100% {
+  &.color-two {
     color: #6a4dff;
   }
 }
