@@ -6,10 +6,10 @@ import Projects from "../Project/Projects";
 export default function Body() {
   return (
     <>
-      <SectionOne></SectionOne>
-      <SectionMarquee></SectionMarquee>
-      <Projects></Projects>
-      <Career></Career>
+      <SectionOne />
+      <SectionMarquee />
+      <Projects id="projects" />
+      <Career />
     </>
   );
 }
