@@ -1,14 +1,14 @@
 import SectionMarquee from "./Marquee";
 import SectionOne from "./SectionOne";
 import Career from "./Career";
-import Project from "../Project/Project";
+import Projects from "../Project/Projects";
 
 export default function Body() {
   return (
     <>
       <SectionOne></SectionOne>
       <SectionMarquee></SectionMarquee>
-      <Project></Project>
+      <Projects></Projects>
       <Career></Career>
     </>
   );

@@ -95,17 +95,17 @@ export default function SectionOne() {
           My name is Carmela and <br />
           this is the portfolio of a <br />
           <TypeAnimation
-          duration={DURATION}
-          deletionSpeed={DURATION}
+            duration={DURATION}
+            deletionSpeed={DURATION}
             sequence={[
-              "Visual designer.", 
+              "Product designer.",
               2000,
               "",
-              (el) =>el.classList.add('color-two'),
-              "Front end developer.", 
+              (el) => el.classList.add("color-two"),
+              "Front end developer.",
               2000,
               "",
-              (el) => el.classList.remove('color-two')
+              (el) => el.classList.remove("color-two"),
             ]}
             className="section-one__typeanimation"
             repeat={Infinity}
