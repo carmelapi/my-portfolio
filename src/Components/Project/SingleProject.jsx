@@ -6,7 +6,7 @@ export default function SingleProject({ id, name, tag, website, github, img }) {
     <div className="project__component">
       <div className="project__description">
         <div className="project__title">
-          <a href={website}>
+          <a href={website} target="_blank">
             <h2>{name}</h2>
           </a>
           <div className="project__tags">
