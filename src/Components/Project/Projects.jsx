@@ -5,7 +5,7 @@ import SingleProject from "./SingleProject";
 export default function Projects({ id, name, tag, website, github, img }) {
   return (
     <>
-      <section className="section-project">
+      <section className="section-project" id="projects">
         <div className="section-title">
           <h4>Frontend / </h4>
           <a href="https://www.figma.com/proto/MBwomhhdgiyFQQfhiRBIxgIg/Pippa?page-id=1400%3A1296&node-id=1400-1488&mode=design&t=JNwaWuEPC1F3hN4P-1">

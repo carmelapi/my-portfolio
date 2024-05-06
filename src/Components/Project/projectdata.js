@@ -4,7 +4,7 @@ const projectData = [
     id: 0,
     name: "ToDo App",
     tag: ["React", "Tailwind", "POSTGRESQL"],
-    img: "/src/img/todoApp.png",
+    img: "img/todoApp.png",
     website: "https://todo-group3-client.vercel.app/",
     github: "https://github.com/Hyper-Team-3/Todo-Group3.git",
   },

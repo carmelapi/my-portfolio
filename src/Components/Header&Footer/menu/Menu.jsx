@@ -4,9 +4,9 @@ export default function ShowMenu() {
   return (
     <div className="menu__container">
       <ul className="menu__list">
-        {/* <li>
+        <li>
           <a href="#project"> Project</a>
-        </li> */}
+        </li>
         <li>
           <a
             href="https://www.linkedin.com/in/carmela-pippa/"
