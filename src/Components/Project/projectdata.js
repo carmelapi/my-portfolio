@@ -1,3 +1,5 @@
+import ImgColorMeTwice from "/src/img/color-me-twice.png";
+
 const projectData = [
   {
     // ------------- TODOAPP --------------------
@@ -13,7 +15,7 @@ const projectData = [
     id: 1,
     name: "Color me Twice",
     tag: ["React"],
-    img: "/src/img/color-me-twice.png",
+    img: { ImgColorMeTwice },
     website: "https://color-me-twice.netlify.app/",
     github: " https://github.com/carmelapi/colorMeTwice.git",
   },
