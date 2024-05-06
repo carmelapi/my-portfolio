@@ -1,11 +1,19 @@
 import "../../../styles/menu.css";
 
-export default function ShowMenu() {
+export default function ShowMenu({ setIsOpen }) {
   return (
     <div className="menu__container">
       <ul className="menu__list">
         <li>
-          <a href="#projects"> Project</a>
+          <a
+            href="#projects"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            {" "}
+            Project
+          </a>
         </li>
         <li>
           <a

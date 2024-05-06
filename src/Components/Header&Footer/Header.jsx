@@ -24,7 +24,7 @@ export default function Header() {
           )}
         </menu>
       </header>
-      {isOpen && <ShowMenu></ShowMenu>}
+      {isOpen && <ShowMenu setIsOpen={setIsOpen}></ShowMenu>}
     </>
   );
 }
