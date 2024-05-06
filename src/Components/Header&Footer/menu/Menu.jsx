@@ -5,7 +5,7 @@ export default function ShowMenu() {
     <div className="menu__container">
       <ul className="menu__list">
         <li>
-          <a href="#project"> Project</a>
+          <a href="#projects"> Project</a>
         </li>
         <li>
           <a
