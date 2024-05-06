@@ -1,10 +1,15 @@
+import colorMeTwice from "../../img/color-me-twice.png";
+import toDoApp from "../../img/todoApp.png";
+import sunCard from "../../img/suncard.png";
+import guessTheNumber from "../../img/guessTheNumber.png";
+
 const projectData = [
   {
     // ------------- TODOAPP --------------------
     id: 0,
     name: "ToDo App",
     tag: ["React", "Tailwind", "POSTGRESQL"],
-    img: "/src/img/todoApp.png",
+    img: toDoApp,
     website: "https://todo-group3-client.vercel.app/",
     github: "https://github.com/Hyper-Team-3/Todo-Group3.git",
   },
@@ -13,7 +18,7 @@ const projectData = [
     id: 1,
     name: "Color me Twice",
     tag: ["React"],
-    img: "/src/img/color-me-twice.png",
+    img: colorMeTwice,
     website: "https://color-me-twice.netlify.app/",
     github: " https://github.com/carmelapi/colorMeTwice.git",
   },
@@ -22,7 +27,7 @@ const projectData = [
     id: 2,
     name: "Sun Card",
     tag: ["Html", "Css", "JS"],
-    img: "/src/img/suncard.png",
+    img: sunCard,
     website: "https://sun-card-game.netlify.app/",
     github: "https://github.com/carmelapi/sun-card-game",
   },
@@ -31,7 +36,7 @@ const projectData = [
     id: 3,
     name: "Guess the Number",
     tag: ["Html", "Css", "JS"],
-    img: "/src/img/guessTheNumber.png",
+    img: guessTheNumber,
     website: "https://guesscarmelanumber.netlify.app/",
     github: "https://github.com/carmelapi/guessTheNumber",
   },
