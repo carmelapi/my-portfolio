@@ -75,3 +75,24 @@ h2 {
   height: 200px;
   border-radius: 16px;
 }
+
+/* ----------------RESPONSIVE-------------- */
+
+@media only screen and (max-width: 430px) {
+  .section-project {
+    overflow: hidden;
+    padding: 0 0.5rem;
+  }
+  .projects__container {
+    gap: 1rem;
+  }
+  .project__component {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+    padding: 3rem 2rem;
+  }
+  .project__description {
+    max-width: 100vw;
+  }
+}
