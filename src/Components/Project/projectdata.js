@@ -1,8 +1,17 @@
+import budgy from "../../img/budgy.png";
 import colorMeTwice from "../../img/color-me-twice.png";
 import sunCard from "../../img/suncard.png";
 import guessTheNumber from "../../img/guessTheNumber.png";
 
 const projectData = [
+  {
+    id: 4,
+    name: "Budgy",
+    tag: ["React", "TypeScript", "Material UI"],
+    img: budgy,
+    website: "https://github.com/carmelapi/budgy",
+    github: "https://github.com/carmelapi/budgy",
+  },
   {
     // ------------- COLORMETWICE --------------------
     id: 1,

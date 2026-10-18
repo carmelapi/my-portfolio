@@ -23,7 +23,13 @@ export default function SingleProject({ id, name, tag, website, github, img }) {
         </a>
       </div>
       <div className="project__images">
-        <img src={img} alt={name} />
+        {website === github ? (
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            <img src={img} alt={name} />
+          </a>
+        ) : (
+          <img src={img} alt={name} />
+        )}
       </div>
     </div>
   );
