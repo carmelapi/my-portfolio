@@ -7,8 +7,8 @@ export default function Body() {
   return (
     <>
       <SectionOne />
-      <SectionMarquee />
       <Projects />
+      <SectionMarquee />
       <Career />
     </>
   );

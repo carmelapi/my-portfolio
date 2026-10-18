@@ -15,28 +15,17 @@ export default function Career() {
           <strong>2023/2025</strong> School for Front-end
         </span>
         <span>
-          <strong>2016/2017</strong> UI designer in Seed Media Agency
+          <strong>2016/2023</strong> UI &amp; Visual Designer at Universum AB,
+          Creact and Seed Media Agency
         </span>
         <span>
-          <strong>2017/2018</strong> Web designer in 4D Solutions
+          <strong>Oct 2023 / Nov 2024</strong> Product Designer at Insurely
         </span>
         <span>
-          <strong>2018</strong> Teacher of Arts
+          <strong>Jun 2024 / Aug 2024</strong> Front-end Developer Consultant at Your Way Home
         </span>
         <span>
-          <strong>2018</strong> UI designer in Creact
-        </span>
-        <span>
-          <strong>2019</strong> Visual designer in Jobtome
-        </span>
-        <span>
-          <strong>2019/2024</strong> Visual designer in Universum
-        </span>
-        <span>
-          <strong>2023</strong> Graphic designer in Bokafix
-        </span>
-        <span>
-          <strong>2023/2024</strong> Product designer in Insurely
+          <strong>Sep 2024 / Present</strong> Frontend Software Engineer at Braive
         </span>
       </p>
     </section>

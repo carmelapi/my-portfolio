@@ -1,7 +1,6 @@
 .section-career {
   display: flex;
   align-items: flex-start;
-  height: 70vh;
   padding: 0rem 3rem;
   flex-direction: column;
   justify-content: center;
